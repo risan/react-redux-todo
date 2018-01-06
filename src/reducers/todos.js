@@ -3,17 +3,27 @@ import todo from './todo';
 const initialState = [
   {
     id: 1,
-    text: 'Learn React and Redux ⚛️',
+    text: 'Learn Javascript',
     completed: true
   },
   {
     id: 2,
-    text: 'Read a book 📗',
-    completed: false
+    text: 'Learn React and Redux',
+    completed: true
   },
   {
     id: 3,
-    text: 'Write a blog post ✏️',
+    text: 'Go to the gym',
+    completed: false
+  },
+  {
+    id: 4,
+    text: 'Cook for dinner',
+    completed: false
+  },
+  {
+    id: 5,
+    text: 'Write a blog post',
     completed: false
   }
 ];

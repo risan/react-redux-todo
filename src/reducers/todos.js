@@ -19,7 +19,7 @@ const initialState = [
 ];
 
 const todos = (state = initialState, action) => {
-  switch(action.type) {
+  switch (action.type) {
     case 'ADD_TODO':
       return [...state, todo(undefined, action)];
     case 'TOGGLE_TODO':
@@ -27,6 +27,6 @@ const todos = (state = initialState, action) => {
     default:
       return state;
   }
-}
+};
 
 export default todos;

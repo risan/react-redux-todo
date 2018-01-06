@@ -1,5 +1,6 @@
 # React Redux Todo
 
+[![Code Style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/risan/react-redux-todo)
 [![License](https://img.shields.io/github/license/risan/react-redux-todo.svg)](https://github.com/risan/react-redux-todo/blob/master/LICENSE.md)
 
 A Todo list application sample using [React](https://reactjs.org) and [Redux](https://redux.js.org).

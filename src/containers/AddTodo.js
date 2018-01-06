@@ -9,7 +9,7 @@ const AddTodo = ({ dispatch }) => {
     <form>
       <input
         type="text"
-        ref={node => input = node}
+        ref={node => (input = node)}
         placeholder="What needs to be done..."
       />
       <button

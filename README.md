@@ -5,6 +5,8 @@
 
 A Todo list application sample using [React](https://reactjs.org) and [Redux](https://redux.js.org).
 
+![React Redux Todo](https://media.giphy.com/media/xULW8AJ0JxuNXB4HKw/source.gif)
+
 ## Requirements
 
 The following items are required to run this application sample:

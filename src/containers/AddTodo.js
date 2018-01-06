@@ -6,21 +6,17 @@ const AddTodo = ({ dispatch }) => {
   let input;
 
   return (
-    <form>
+    <form onSubmit={(e) => {
+      e.preventDefault();
+      dispatch(addTodo(input.value));
+      input.value = '';
+    }}>
       <input
         type="text"
         ref={node => (input = node)}
         placeholder="What needs to be done..."
       />
-      <button
-        type="button"
-        onClick={() => {
-          dispatch(addTodo(input.value));
-          input.value = '';
-        }}
-      >
-        Add
-      </button>
+      <button type="submit">Add</button>
     </form>
   );
 };

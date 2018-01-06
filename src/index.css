@@ -1,0 +1,115 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background: #fff;
+}
+
+a:link,
+a:visited {
+    color: #7C73E6;
+}
+
+a:hover,
+a:active {
+    color: #978fef;
+}
+
+.root {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.todo-app {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background: #FAF9F0;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    box-shadow: 8px 8px 0 0 #000;
+}
+
+.todo-app h1 {
+    font-size: 2rem;
+    margin: 0 0 10px 0;
+    line-height: 1;
+}
+
+.todo-app form {
+    margin: 0 0 15px 0;
+}
+
+.todo-app input[type="text"] {
+    display: block;
+    font-size: 1rem;
+    padding: 5px;
+    margin: 0 0 7px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #868475;
+    box-shadow: 2px 2px 0 0 #868475;
+}
+
+.todo-app input[type="text"]:focus {
+    border-color: #525147;
+    box-shadow: 2px 2px 0 0 #525147;
+}
+
+.todo-app button {
+    font-size: 1rem;
+    padding: 5px 20px;
+    color: #fff;
+    background: #7C73E6;
+    border: 1px solid #645cc3;
+    box-shadow: 2px 2px 0 0 #645cc3;
+    cursor: pointer;
+}
+
+.todo-app button:hover {
+    background: #8a81ec;
+}
+
+.todo-app ul {
+    font-size: 1rem;
+    list-style-type: square;
+    margin: 0 0 15px 0;
+    padding-left: 30px;
+}
+
+.todo-app li {
+    user-select: none;
+    cursor: pointer;
+}
+
+.todo-app li.completed {
+    color: #aaa;
+}
+
+.todo-app footer {
+    display: flex;
+    font-size: 1rem;
+}
+
+.todo-app .title {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.todo-app nav {
+    display: flex;
+}
+
+.todo-app .link-active {
+    font-weight: 500;
+}
+
+.todo-app .separator {
+    margin: 0 5px;
+}

@@ -4,11 +4,12 @@ import VisibleTodoList from './VisibleTodoList';
 import Footer from '../components/Footer';
 
 const TodoApp = () => (
-  <div>
+  <section className="todo">
+    <h1>Todo</h1>
     <AddTodo />
     <VisibleTodoList />
     <Footer />
-  </div>
+  </section>
 );
 
 export default TodoApp;

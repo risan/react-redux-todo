@@ -5,7 +5,11 @@ const completedStyle = {
 };
 
 const Todo = ({ text, completed, onClick }) => (
-  <li style={completed ? completedStyle : null} onClick={onClick}>
+  <li
+    className={completed ? 'completed' : null}
+    style={completed ? completedStyle : null}
+    onClick={onClick}
+  >
     {text}
   </li>
 );

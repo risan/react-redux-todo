@@ -1,0 +1,38 @@
+{
+  "name": "react-redux-todo",
+  "description": "Todo list application sample using React and Redux",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/risan/react-redux-todo#readme",
+  "author": {
+    "name": "Risan Bagja Pradana",
+    "email": "risanbagja@gmail.com",
+    "url": "https://risan.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/risan/react-redux-todo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/risan/react-redux-todo/issues"
+  },
+  "keywords": [
+    "todo",
+    "app",
+    "react",
+    "redux"
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2"
+  }
+}
